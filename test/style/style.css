@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@media screen and (max-width: 600px) {
+     .ff {
+      width: 350px;
+      height: 400px;
+    }
+    .gg{
+        display: block;
+        place-items: center;
+    }
+    
+  }
+
+  .ff-img{
+
+  }
+  .gg{
+
+  }
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.1);
+    background-color: hsla(208, 86%, 49%, 0.2) ;
+        border-radius: 20px ;
+    transition: ease .5s;
+
+  }
+
+
+
+.carousel-caption{
+    background-color: hsl(78, 98%, 68% , .2) ;
+    border-radius: 20px;
+} 
+
+.carousel-caption:hover{
+  
+        background-color: hsla(208, 86%, 49%, 0.2) ;
+        border-radius: 20px ;
+    transition: ease .5s;
+    
+}
+
+.offcan-img{
+    width: 250px;  height: 300px;
+    margin-bottom:10px ;
+}
+
+footer{
+    background-color: #2B3035;
+    height: 40px;
+}
+
+.carousel-inner:hover{
+    
+}
